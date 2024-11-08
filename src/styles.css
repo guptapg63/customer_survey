@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  width: 50%;
+  margin: 10% auto;
+  padding: 20px;
+  background-color: #88b7d6; 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px; 
+}
+
+h1, h2, h3, p {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #041a99;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #42325a;
+  cursor: not-allowed;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  resize: vertical;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 10px; /* Center-align the textarea */
+}
+
+.rating-button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.rating-button:hover {
+  background-color: #c237bb;
+}
+
+.rating-button.selected {
+  background-color: #df2d2d; /* Darker blue when selected */
+  color: #ffffff;
+}
+
+.center {
+  text-align: center;
+}
